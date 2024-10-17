@@ -678,3 +678,5 @@ const storyData = {
     ]
   },
 }
+
+export default storyData;
