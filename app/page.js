@@ -1,14 +1,9 @@
-import Footer from "./components/Footer.js";
-import Story from "./story/page.js";
+import StoryContent from './components/StoryContent';
 
-const Home = () => {
+export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-green-100">
-      <Story />
-
-      <Footer />
-    </div>
+    <main className="min-h-screen flex items-center justify-center">
+      <StoryContent />
+    </main>
   );
-};
-
-export default Home;
+}
